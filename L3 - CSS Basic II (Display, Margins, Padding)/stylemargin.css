@@ -1,0 +1,17 @@
+p{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+
+}
+a{
+    background-color: brown;
+    color: white;
+    margin-left: 20px;
+    padding-right: 30px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: gold;
+    border-radius: 10px; 
+}

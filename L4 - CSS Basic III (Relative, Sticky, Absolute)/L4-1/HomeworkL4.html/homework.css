@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+}
+
+.containt {
+  height: 2000px;
+}
+.navbar {
+  position: fixed;
+  left: 15%;
+  height: 5%;
+  width: 85%;
+  background-color: white;
+  z-index: 1;
+}
+.sidebar {
+  position: fixed;
+  width: 15%;
+  height: 200%;
+  background-color: tomato;
+  z-index: 1;
+}
+.main {
+  padding-top: 30px;
+  top: 5%;
+  left: 15%; 
+  height: 2000px;
+  width: 85%;
+  position: absolute;
+  background-color: rgb(226, 145, 145);
+}
+.text {
+  text-align: center;
+}
+.fixed { 
+  text-align: center;
+  margin-top: 15px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.fixed1 {
+  margin-left: 230px;
+  margin-top: 15px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.titlu {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}

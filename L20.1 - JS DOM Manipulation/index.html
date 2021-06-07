@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .myDiv{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="print()">DOM Manipulation</h1>
+    <div class="myDiv" onMouseEnter="enterFunction()" onMouseLeave ="leaveFunction()"></div>
+
+    <div class="content">Hello</div>
+    <h2 id ="id1">Ok</h2>
+
+    <div style="color:brown" onclick="console.log('Clicked')" id="div">div</div>
+    <input type="text" onChange="myInputFunction()"></input>
+    <script src = "script1.js"></script>
+</html>

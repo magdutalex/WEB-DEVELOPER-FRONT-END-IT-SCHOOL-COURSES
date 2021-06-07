@@ -1,0 +1,31 @@
+#USERNAME{
+    
+    color:darkslateblue;
+    font-style: oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow:darkviolet;
+    text-decoration: underline;
+}
+.text{
+    background-color:indianred;
+    border: 5px solid black;
+}
+#username{
+    color: chartreuse;
+}
+#Cartofi1{
+    list-style-type:square;
+    list-style-position: inherit;
+}
+.dotted{
+    border-style: double; 
+    border-color: black;
+    border-width: 10px;
+    border-color: chocolate;
+    border-top-style:dotted;
+}
+body{
+   background-color: slategray;
+}

@@ -1,0 +1,10 @@
+.my-first-div{
+   width: 100%; 
+   height: 50px;
+   background-color: blue;
+}  
+.side-bar{
+   width:150px;
+   height:1000px;
+   background-color: blue;  
+}

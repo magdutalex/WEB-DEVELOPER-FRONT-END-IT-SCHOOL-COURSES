@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color:rosybrown;
+  
+}
+.content{
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+
+   
+}
+.nav-bar{
+    background-color: royalblue;
+    flex-grow: 1;
+   
+}
+.side-bar{
+    background-color: red;
+    width: 80px;
+    margin-top: 40px;
+    flex-grow: 1;
+    
+
+    
+   
+}
+.side-bar2{
+    background-color:rosybrown;
+    width: 80px;
+    align-self: flex-end;
+    flex-grow: 1;
+    margin-bottom: 100px;
+   
+
+    
+  
+    
+ 
+}
+.footer{
+    background-color: springgreen;
+   flex-grow: 1;
+}
+.VEST{
+     margin-top: 80px
+}

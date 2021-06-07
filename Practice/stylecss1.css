@@ -1,0 +1,28 @@
+.filelist{
+       background-color: rgb(200, 251, 234);
+       padding: 40px 25px 40px 25px;
+       border-style: double;
+       border-color:rgb(143, 125, 251);
+       border-radius: 20px;
+       color:rgb(33, 92, 129);
+       margin-bottom: 40px;
+       margin-top:0mm;
+       font-size: 50px;
+       font-family: 'Brush Script MT', cursive;
+}
+body{
+    margin-top: 5px;
+    background-image:url(../Imagini/photo-1579546929662-711aa81148cf.jpg); 
+    background-size: 100%;
+}  
+.Aut{
+    padding: 10px 30px 10px 30px;
+    line-height: 200px;  /* poti sa muti textul mai jos */
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bolder;
+    border-style:solid;
+    border-radius: 20px;
+}
+
+

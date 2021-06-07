@@ -1,0 +1,74 @@
+.body{
+      margin: auto;
+}
+.content{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color:white;
+    
+}
+.topbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    justify-content: flex-end ;
+    
+    
+}
+.image{
+     display: flex;
+     height: 40px;
+     width:  100px;
+     background-color:black;
+     border-radius: 20px;
+     margin-top: 9px;          
+     margin-right: 30px;
+     justify-content: flex-end;
+     border-style: groove;
+     border-color: chocolate;
+     
+}
+
+.sss{
+    display: flex;
+    height: 30px;
+        width: 30px;
+        margin-top: 8%;
+        border-radius:50% ;
+        border-style: groove;
+        border-color: chocolate;
+        margin-right: 6px;
+}
+.sss:hover{
+    cursor: pointer;
+}
+.text{
+     color: chocolate;
+     margin-right: 15px;
+     margin-top: 10%;
+  
+} 
+.mainsidebar{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+.sidebar1{
+    display: flex;
+    height: 694px;
+    width: 200px;
+    background-color:chocolate;
+}
+.secondbar{
+    display: flex;
+    height: 694px ;
+    width: 150px;
+    background-color: chocolate;
+
+
+}

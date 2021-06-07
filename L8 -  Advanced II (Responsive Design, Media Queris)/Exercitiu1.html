@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1mediaqueris</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+    .containt{
+        height: 100vh;
+        width: 100vw;
+        background-color: coral;
+    }
+    .containt{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .first{
+       background-color: red;
+       flex-grow: 0.2;
+    } 
+    .second{
+        background-color: saddlebrown;
+       flex-grow: 0.2;
+    }
+    .third{
+        background-color: seagreen;
+       flex-grow: 0.2;
+    }
+    @media (max-width:768px){
+        .containt{
+            flex-direction: row;
+        }
+    }
+    @media (max-width:768px){
+        .second{
+            background-color: black;
+        }
+    }
+    </style>
+</head>
+<body>
+     <div class="containt">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+
+
+
+     </div>
+</body>
+</html>

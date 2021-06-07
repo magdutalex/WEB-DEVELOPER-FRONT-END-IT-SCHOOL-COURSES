@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .flexbox-parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       /*justify-content:space-around;
+      
+       align-content: stretch;*/
+        height: 600px;
+        width: 1000px;
+        background-color: darkorchid;
+        align-items: center;
+    }
+    .flexbox-child-1{
+          height: 300px;
+          width: 600x;
+          background-color: seagreen;
+          order: 1;
+ 
+    }
+    .flexbox-child-2{
+        height: 200px;
+        width: 300px;
+        background-color: darkred;
+        order: 2;
+    }
+    .flexbox-child-3{
+        background-color:blue;
+        height: 200px;
+        width: 100px;
+        order: 3;
+
+    }
+    .flexbox-child-4{
+         width: 123px;
+         height: 50px;
+         background-color: springgreen;
+         align-self: flex-start;
+         
+    }
+    .flexbox-child-5{
+        width: 321px;
+        height: 50px;
+        background-color: aqua;
+        flex-grow: 2;
+    }
+    .flexbox-child-6{
+        width: 321px;
+        height: 50px;
+        background-color: pink;
+        align-items: flex-start;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="flexbox-parent">
+       <div class="flexbox-child-1">
+           <h1>1</h1>
+       </div>
+       <div class="flexbox-child-2">
+           <h1>2</h1>
+       </div>
+       <div class="flexbox-child-3">
+           <h1>3</h1>
+       </div>
+      <div class="flexbox-child-4">
+           <h1>4</h1>
+       </div>
+       <div class="flexbox-child-5">
+           <h1>5</h1>
+       </div>
+       <div class="flexbox-child-6">
+           <h1>6</h1>
+       </div>
+</body>
+</html>

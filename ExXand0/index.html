@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe-TheGame</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Tic-Tac-Toe-The Game</h1>
+<h2>Player one select X or 0</h2>
+<div class="imag-x-0">
+    <img src="./img/ximg.png" draggable="true" ondragstart="drag(event)" id="drag1" height="80px">
+    <img src="./img/ximg.png" draggable="true" ondragstart="drag(event)" id="drag2" height="80px">
+    <img src="./img/ximg.png" draggable="true" ondragstart="drag(event)" id="drag3" height="80px">
+    <img src="./img/ximg.png" draggable="true" ondragstart="drag(event)" id="drag4" height="80px">
+    <img src="./img/ximg.png" draggable="true" ondragstart="drag(event)" id="drag5" height="80px">
+    <img src="./img/0icon.png" draggable="true" ondragstart="drag(event)"id="drag6" height="80px">
+    <img src="./img/0icon.png" draggable="true" ondragstart="drag(event)"id="drag7" height="80px">
+    <img src="./img/0icon.png" draggable="true" ondragstart="drag(event)"id="drag8" height="80px">
+    <img src="./img/0icon.png" draggable="true" ondragstart="drag(event)"id="drag9" height="80px">
+</div>
+<div class="round-1">
+    <div class="cell-1" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="cell-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="cell-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div class="round-2">
+    <div class="cell-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="cell-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="cell-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div class="round-3">
+    <div class="cell-4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="cell-4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="cell-4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div class="button">
+    <button class="buttonRestart" type="button" onclick="reloadThePage()">Restart Game</button>
+</div>
+<script src="./script.js"></script>    
+</body>
+</html>
